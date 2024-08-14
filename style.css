@@ -53,3 +53,56 @@
 .icon{
   display: none;
 }
+/* banner design */
+
+.banner{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 84px 70px 90px;
+  align-items: center;
+}
+.banner-title{
+  color: whitesmoke;
+  font-size: 75px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.banner-desprition{
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.836);
+  margin-bottom: 20px;
+}
+.image{
+  width: 350px;
+}
+.banner-content{
+  max-width: 600px;
+  align-items: center;
+}
+.btn-3{
+  font-size: 18px;
+  font-weight: 500;
+  padding: 7px 15px;
+  border-radius: 2.8rem;
+  border: 1px solid whitesmoke;
+}
+.btn-4{
+  background-color: gray;
+  border: none;
+  border-radius: 12px;
+  padding: 20px 45px;
+}
+.btn-5{
+  margin-left: 400px;
+}
+.plus{
+  color: white;
+  font-size: 40px;
+  font-weight: 800;
+}
+.work{
+  color: whitesmoke;
+  font-size: 12px;
+  font-weight: 400;
+}
