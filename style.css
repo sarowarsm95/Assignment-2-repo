@@ -160,6 +160,9 @@ text-align: center;
   max-width: 360px;
   border-radius: 20px;
 }
+.img{
+  width: 320px;
+}
 
 /* responsive design */
 @media screen and (max-width: 576px) {
