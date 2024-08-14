@@ -106,3 +106,22 @@
   font-size: 12px;
   font-weight: 400;
 }
+
+/* responsive design */
+@media screen and (max-width: 576px) {
+  .nav-item{
+    display: none;
+  }
+  .icon{
+    display: block;
+    color: aliceblue;
+    margin-top: 2.2rem;
+    font-size: 35px;
+  }
+  .brand-name{
+    margin-top: 20px;
+  }
+  .banner{
+    flex-direction: column;
+  }
+}
