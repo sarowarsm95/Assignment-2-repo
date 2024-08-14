@@ -9,9 +9,10 @@
 /* header style */
 *{
   margin: 0;
+  padding: 0;
 }
 .container{
-  width: 90%;
+  width: 100%;
   margin: 3rem auto;
 }
 .bg{
@@ -109,6 +110,7 @@
 .bg-2{
   background-color: black;
   max-width: 1440px;
+  margin-top: 0;
 }
 .container{
 text-align: center;
@@ -150,19 +152,66 @@ text-align: center;
 
 
 .container-3{
-  border: 2px solid blue;
-  background-color: rgb(164, 164, 164);
   display: flex;
   max-width: 1060px;
+  text-align: center;
+  margin-top: 50px;
 } 
+.run{
+  padding: 40px 50px;
+}
 
 .run-img{
   max-width: 360px;
   border-radius: 20px;
 }
+.run-des{
+  padding: 10px 50px;
+}
+
 .img{
   width: 320px;
 }
+.team-1{
+  color: white;
+  text-align: center;
+  }
+
+.row{
+  display: flex;
+}
+.last{
+  text-align: center;
+  color: whitesmoke;
+  padding: 20px 0 20px;
+}
+.des-2 {
+  width: 440px;
+}
+.row{
+  justify-content: space-between;
+}
+.collum{
+  color: white;
+}
+.footer{
+  padding: 30px 20px 50px;
+}
+
+.team-2{
+  text-align: center;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+.image-collage{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  align-items: center;
+}
+
 
 /* responsive design */
 @media screen and (max-width: 576px) {
@@ -179,6 +228,15 @@ text-align: center;
     margin-top: 20px;
   }
   .banner{
+    flex-direction: column;
+  }
+  .container-3{
+    flex-direction: column;
+  }
+  .image-collage{
+    grid-template-columns: repeat (2 1fr);
+  }
+  .footer{
     flex-direction: column;
   }
 }
